@@ -19,6 +19,7 @@ module.exports = {
 
 	// used by API
 	adminBaseURL: process.env.ADMIN_BASE_URL || 'http://localhost:3002',
+
 	adminLoginPath: process.env.ADMIN_LOGIN_PATH || '/login',
 
 	apiListenPort: process.env.API_PORT || 3001,
